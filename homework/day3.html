@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Board | Mashup</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Courses</a>
+            </li>
+            <li class="breadcrumb-item active">
+                <a href="#">Web Development</a>
+            </li>
+        </ul>
+        <h3>
+            Web Development Course
+            <span class="badge badge-pill badge-danger">
+                New
+            </span>
+        </h3>
+        <div class="progress my-4">
+            <div class="progress-bar bg-success" style="width: 100%;">
+                HTML &hyphen; 100% complete 
+            </div>
+        </div>
+        <div class="progress my-4">
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary" style="width: 75%;">
+                CSS &hyphen; 75% complete
+            </div>
+        </div>
+        <div class="progress my-4">
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning" style="width: 50%;">
+                JavaScript &hyphen; 50% complete
+            </div>
+        </div>
+        <div class="progress my-4">
+            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger" style="width: 25%;">
+                Bootstrap &hyphen; 25% complete
+            </div>
+        </div>
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="btn-group" role="group">
+                <button class="btn btn-outline-success">Start</button>
+                <button class="btn btn-outline-warning">Pause</button>
+                <button class="btn btn-outline-danger">Reset</button>
+            </div>
+            
+        </div>
+        <ul class="pagination sticky-bottom my-3 justify-content-center">
+            <li class="page-item active">
+                <a href="#" class="page-link ">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item  disabled">
+                <a href="#" class="page-link">3</a>
+            </li>
+        </ul>
+    </div>
+</body>
